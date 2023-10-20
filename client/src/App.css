@@ -1,0 +1,77 @@
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.scrollHide::-webkit-scrollbar {
+  display: none;
+}
+/* 
+.scrollHide
+{
+	margin-left: 30px;
+	float: left;
+	height: 300px;
+	width: 65px;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+} */
+
+.myElement {
+  height: 90vh; /* For most devices, including mobile */
+}
+
+.myElement1 {
+  height: 90%;
+}
+
+@media (max-width: 1024px) {
+  .myElement {
+    height: 100%; /* Override for mobile devices in portrait mode */
+  }
+}
+
+.wrapper {
+  height: 500px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .chatBox {
+    width: 90%;
+    height: auto;
+  }
+}
